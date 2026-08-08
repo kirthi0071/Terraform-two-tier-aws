@@ -1,7 +1,5 @@
 # 🏗️ Two-Tier AWS Infrastructure with Terraform  
 
-![Two-Tier Architecture](https://imgur.com/X4dGBg6.gif)
-
 ## 📌 Overview  
 
 This project demonstrates a **Two-Tier architecture on AWS** using **Terraform** for Infrastructure as Code (IaC). It follows a modular and security-enhanced approach to create a **scalable, secure, and maintainable** infrastructure.  
@@ -18,11 +16,6 @@ This project demonstrates a **Two-Tier architecture on AWS** using **Terraform**
 ---
 
 ## 📖 Step-by-Step Guide  
-
-📌 **Read the full tutorial with screenshots**:  
-[Deploy Two-Tier Architecture on AWS using Terraform](https://blog.prodevopsguytech.com/deploy-two-tier-architecture-on-aws-using-terraform)  
-
----
 
 ## 🚀 Getting Started
 
