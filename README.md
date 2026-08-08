@@ -32,21 +32,9 @@ This project demonstrates a **Two-Tier architecture on AWS** using **Terraform**
 - **AWS CLI** configured with appropriate permissions
 - **An AWS account** with sufficient IAM permissions
 
-### 1️⃣ Clone the Repository  
 
-```bash
-git clone https://github.com/NotHarshhaa/DevOps-Projects
-cd DevOps-Projects/DevOps-Project-11/
-```  
 
-### 2️⃣ Configure Variables
-
-⚠️ **Important**: Before deploying, update the `variables.tfvars` file:
-- Change `RDS-PWD` to a secure password
-- Update `DOMAIN-NAME` to your actual domain
-- Modify other values as needed for your environment
-
-### 3️⃣ Initialize and Apply Terraform  
+###  Initialize and Apply Terraform  
 
 ```bash
 terraform init
@@ -54,7 +42,7 @@ terraform plan -var-file=variables.tfvars
 terraform apply -var-file=variables.tfvars --auto-approve
 ```  
 
-### 4️⃣ Cleanup (Destroy Infrastructure)  
+###  Cleanup (Destroy Infrastructure)  
 
 ```bash
 terraform destroy -var-file=variables.tfvars --auto-approve
@@ -97,26 +85,4 @@ terraform destroy -var-file=variables.tfvars --auto-approve
 ✅ **Amazon CloudFront (CDN)** – Faster content delivery worldwide  
 ✅ **SSL/TLS Encryption** – Secure communication with ACM  
 
----
 
-## 🛠️ Author & Community  
-
-This project is crafted by **[Harshhaa](https://github.com/NotHarshhaa)** 💡.  
-I’d love to hear your feedback! Feel free to share your thoughts.  
-
-📧 **Connect with me:**
-
-- **GitHub**: [@NotHarshhaa](https://github.com/NotHarshhaa)  
-- **Blog**: [ProDevOpsGuy](https://blog.prodevopsguytech.com)  
-- **Telegram Community**: [Join Here](https://t.me/prodevopsguy)  
-- **LinkedIn**: [Harshhaa Vardhan Reddy](https://www.linkedin.com/in/harshhaa-vardhan-reddy/)  
-
----
-
-## ⭐ Support the Project  
-
-If you found this helpful, consider **starring** ⭐ the repository and sharing it with your network! 🚀  
-
-### 📢 Stay Connected  
-
-![Follow Me](https://imgur.com/2j7GSPs.png)  
