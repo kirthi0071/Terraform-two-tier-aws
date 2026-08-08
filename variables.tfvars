@@ -47,7 +47,7 @@ ASG-NAME             = "Two-Tier-ASG"
 
 
 # CLOUDFRONT
-DOMAIN-NAME = "amanpathakdevops.study"
+DOMAIN-NAME = "kirthikumar.cloud.ai"
 CDN-NAME    = "Two-Tier-CDN"
 
 # WAF
